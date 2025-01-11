@@ -20,10 +20,17 @@ namespace L2_DieuKienVongLap
         /*
          if(dk){ } 
          else if(dk khác){}
+
+         ?? : if(null)
+
          */
         static void Main(string[] args)
         {
-            int a = 1;
+            int a = 5;
+            int? b = null; // 1 kieu du lieu ko co du lieu
+
+            a = b ?? 5; // <=> if(b==null) a =5;
+
 
             // Dk ;
             if (a < 10)

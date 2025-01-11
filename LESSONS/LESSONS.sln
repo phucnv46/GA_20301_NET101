@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L1_KhaiBaoBienVaKieuDuLieu"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2_DieuKienVongLap", "L2_DieuKienVongLap\L2_DieuKienVongLap.csproj", "{F3E44EAD-CEF5-4627-A5F7-93E2849A65DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.5_XuLyChuoi", "L2.5_XuLyChuoi\L2.5_XuLyChuoi.csproj", "{01638078-F4ED-4A3C-8DB7-1A6A8B77B367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3E44EAD-CEF5-4627-A5F7-93E2849A65DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E44EAD-CEF5-4627-A5F7-93E2849A65DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E44EAD-CEF5-4627-A5F7-93E2849A65DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01638078-F4ED-4A3C-8DB7-1A6A8B77B367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01638078-F4ED-4A3C-8DB7-1A6A8B77B367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01638078-F4ED-4A3C-8DB7-1A6A8B77B367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01638078-F4ED-4A3C-8DB7-1A6A8B77B367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
