@@ -33,7 +33,7 @@ namespace L1_KhaiBaoBienVaKieuDuLieu
 
             //Nhap/ Xuat:
             //Đọc 1 dòng
-           string nhapVao = Console.ReadLine();
+           string nhapVao = Console.ReadLine(); // Doc 1 dong nhap vao tu ban phim
 
             // In ra :
             // cw + tab
@@ -41,24 +41,27 @@ namespace L1_KhaiBaoBienVaKieuDuLieu
 
             Console.OutputEncoding = Encoding.UTF8; // Hien thi duoc tieng viet
 
-            Console.WriteLine("Chuỗi bạn vừa nhập vào là: " + nhapVao); //c2
+            Console.WriteLine("Chuỗi bạn vừa nhập vào là: " + nhapVao); //c1
             Console.WriteLine("Chuỗi bạn vừa nhập vào là: {0}", nhapVao); //c2
             Console.WriteLine($"Chuỗi bạn vừa nhập vào là: {nhapVao}"); //c3
 
             // Nhap vao cac bien ten, nam sinh, gioi tinh, masv, diem: 
             // Hien thi thong tin ban than
 
-             Console.Write("Xin moi nhap ten:");
-             string tenbt = Console.ReadLine();
+             Console.Write("Xin moi nhap ten: ");
+           
+             string tenbt = Console.ReadLine(); // Nhap 1 dong va gan vao bien tenbt
 
             Console.Write("Xin moi nhap nam sinh:");
-            int namSinh = int.Parse(Console.ReadLine()); //c1
+            int namSinh = int.Parse(Console.ReadLine()); //c1 //Nhap 1 dòng từ bàn phím doi sang kieu int , gan vao biến năm sinh
 
             Console.Write("Xin moi nhap diem:");
-            double diem = Convert.ToDouble(Console.ReadLine()); // C2
+            double diem = Convert.ToDouble(Console.ReadLine()); // C2m 
 
             Console.WriteLine("Thong tin:");
             Console.WriteLine("Tên: {1}, Tuổi:{0}, Điểm: {2}", DateTime.Now.Year - namSinh, tenbt, diem); // tham so dang sau phai tuong ung voi thu tu trong chuoi truyen vao
+
+            // Toan tu toan hoc : +, - , * , /, Math.Pow        
         }
     }
 }
