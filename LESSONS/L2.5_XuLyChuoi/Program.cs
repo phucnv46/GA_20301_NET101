@@ -19,7 +19,7 @@ namespace L2._5_XuLyChuoi
             Console.WriteLine(ten2);
         }
 
-     static void ThayDoiTen(out string? ten)  // giong con tro nhung khong can khoi tao gia tri
+        static void ThayDoiTen(out string? ten)  // giong con tro nhung khong can khoi tao gia tri
         {
             ten = "Hùng";
         }
