@@ -34,6 +34,8 @@ namespace L4_LuyenTap_DK_VongLap
               6.Cho ngẫu nhiên 1 số từ (1-10), nhập vào 1 số nếu trùng thì chúc mừng
                ngược lại chúc bạn may mắn lần sau
               7. Viết hàm tính luỹ thừa
+              8.Nhap vao so nguyen duong n in ra day so le (su dung continute)
+              9.Nhap vao so nguyen duong n kiem tra xem day co phai so nguyen to khong
              */
             Console.OutputEncoding = Encoding.UTF8;
 
@@ -155,6 +157,45 @@ namespace L4_LuyenTap_DK_VongLap
                             int luythua = Luythua(2, 3);
                             Console.WriteLine($"2^3={luythua}");
                         break;
+                        }
+
+                    case 8:
+                        {
+                            Console.Write("Xin mời nhập 1 số nguyên dương: ");
+                            int n = Convert.ToInt32(Console.ReadLine());
+
+                            for (int i = 1; i < n; i++)
+                            {
+                                if (i % 2 == 0) continue;
+                                Console.Write("{0} ",i);
+                            }
+                            Console.WriteLine();
+                            break;
+                        }
+
+                        case 9: {
+                            Console.Write("Xin mời nhập 1 số nguyên dương: ");
+                            int n = Convert.ToInt32(Console.ReadLine());
+
+                            bool isPrime =true;
+                            for (int i = 2; i <= Math.Sqrt(n); i++)
+                            {
+                                if (n % i == 0)
+                                    isPrime = false;
+                                    break;
+                                    ;
+                            }
+
+                            if (isPrime)
+                            {
+                                Console.WriteLine("Day la so nguyen to");
+                            }else
+                            {
+                                Console.WriteLine("Khong phai");
+                            }
+                            Console.WriteLine();
+
+                            break;
                         }
                 }
             }
