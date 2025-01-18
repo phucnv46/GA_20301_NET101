@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2.5_XuLyChuoi", "L2.5_XuLy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4_LuyenTap_DK_VongLap", "L4_LuyenTap_DK_VongLap\L4_LuyenTap_DK_VongLap.csproj", "{1B843D55-2AAB-4241-81DA-659D92A45F9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5_OOP_Class_Object_DongGoi", "L5_OOP_Class_Object_DongGoi\L5_OOP_Class_Object_DongGoi.csproj", "{4CC49442-0B00-474C-A5B6-28C7F2D39875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1B843D55-2AAB-4241-81DA-659D92A45F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B843D55-2AAB-4241-81DA-659D92A45F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B843D55-2AAB-4241-81DA-659D92A45F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC49442-0B00-474C-A5B6-28C7F2D39875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC49442-0B00-474C-A5B6-28C7F2D39875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC49442-0B00-474C-A5B6-28C7F2D39875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC49442-0B00-474C-A5B6-28C7F2D39875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
