@@ -31,6 +31,6 @@ namespace L5_OOP_Class_Object_DongGoi
         //Tao lop sung: co cac thuoc tinh Ten,LoaiDan,TocDoBan,DoGiat, List<PhuKien>, LoaiSung
         // Co phuong thuc ban: In ra ban bang sung gi, dan gi
 
-        // Tao class SinhVien tu mo ta ban than: Ten, Mssv, NgaySinh,Tuoi(suy ra tu ngay sinh),SoThich,...
+        // Tao class SinhVien tu mo ta ban than: Ten, Mssv, NgaySinh,Tuoi(suy ra tu ngay sinh), SoThich,...
     }
 }

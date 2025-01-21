@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L4_LuyenTap_DK_VongLap", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5_OOP_Class_Object_DongGoi", "L5_OOP_Class_Object_DongGoi\L5_OOP_Class_Object_DongGoi.csproj", "{4CC49442-0B00-474C-A5B6-28C7F2D39875}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6_TapHop", "L6_TapHop\L6_TapHop.csproj", "{C7E870B9-1AC2-474E-A21F-5DBF71CEF449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6.5_ChuaBaiTap", "L6.5_ChuaBaiTap\L6.5_ChuaBaiTap.csproj", "{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{4CC49442-0B00-474C-A5B6-28C7F2D39875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CC49442-0B00-474C-A5B6-28C7F2D39875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CC49442-0B00-474C-A5B6-28C7F2D39875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E870B9-1AC2-474E-A21F-5DBF71CEF449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E870B9-1AC2-474E-A21F-5DBF71CEF449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E870B9-1AC2-474E-A21F-5DBF71CEF449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E870B9-1AC2-474E-A21F-5DBF71CEF449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
