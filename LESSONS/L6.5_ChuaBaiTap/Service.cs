@@ -70,5 +70,10 @@ namespace L6._5_ChuaBaiTap
 
             }
         }
+
+        public void SapXepDanhSachTheoTen()
+        {
+            sinhViens.OrderBy(x => x.SDT); //Sap xep theo truong mong muon
+        }
     }
 }

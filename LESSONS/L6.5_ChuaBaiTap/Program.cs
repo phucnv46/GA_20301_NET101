@@ -37,9 +37,11 @@ namespace L6._5_ChuaBaiTap
                         }
                     case 3: service.XoaSinhVien(); break;
                     case 4: service.InDanhSachSinhVien(); break;
+                    
                 }
 
             }
+
         }
     }
 }
