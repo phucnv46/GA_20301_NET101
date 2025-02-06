@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6_TapHop", "L6_TapHop\L6_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L6.5_ChuaBaiTap", "L6.5_ChuaBaiTap\L6.5_ChuaBaiTap.csproj", "{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuaLab34", "ChuaLab34\ChuaLab34.csproj", "{5D78B588-F4DC-441F-8A99-61E6C25684DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7_KeThua", "L7_KeThua\L7_KeThua.csproj", "{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6CACEA-5DEF-44E6-9CE4-340023776AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D78B588-F4DC-441F-8A99-61E6C25684DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D78B588-F4DC-441F-8A99-61E6C25684DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D78B588-F4DC-441F-8A99-61E6C25684DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D78B588-F4DC-441F-8A99-61E6C25684DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
