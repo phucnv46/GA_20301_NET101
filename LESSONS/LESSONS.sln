@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuaLab34", "ChuaLab34\Chua
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7_KeThua", "L7_KeThua\L7_KeThua.csproj", "{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L8_DaHinh", "L8_DaHinh\L8_DaHinh.csproj", "{0D3B39C5-CC38-489A-9704-9E0B27D2805B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC1E66B-9C67-4C37-AA10-4FA02D23EBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3B39C5-CC38-489A-9704-9E0B27D2805B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3B39C5-CC38-489A-9704-9E0B27D2805B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3B39C5-CC38-489A-9704-9E0B27D2805B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3B39C5-CC38-489A-9704-9E0B27D2805B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
