@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L10_5_ChuaBaiTap", "L10_5_C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L10_3_TryCatch", "L10_3_TryCatch\L10_3_TryCatch.csproj", "{C66F5126-C614-4178-81E6-9932D05F6697}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11_OnTap_ChuaBai", "L11_OnTap_ChuaBai\L11_OnTap_ChuaBai.csproj", "{445E723B-506E-4506-8D88-9D65B0FBF037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11_1_Assignment2_Support", "L11_1_Assignment2_Support\L11_1_Assignment2_Support.csproj", "{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{C66F5126-C614-4178-81E6-9932D05F6697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C66F5126-C614-4178-81E6-9932D05F6697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C66F5126-C614-4178-81E6-9932D05F6697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445E723B-506E-4506-8D88-9D65B0FBF037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445E723B-506E-4506-8D88-9D65B0FBF037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445E723B-506E-4506-8D88-9D65B0FBF037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445E723B-506E-4506-8D88-9D65B0FBF037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
