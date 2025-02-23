@@ -163,7 +163,6 @@ namespace L11_1_Assignment2_Support
             _taiKhoan.GiaoDiches.Add(new GiaoDich()
             {
                 LoaiGiaoDich = LoaiGiaoDich.Gui,
-                MaGiaoDich = "123",
                 TaiKhoanGui = _taiKhoan,
                 TaiKhoanNhan = taiKhoanNhan,
                 SoTien = stc,
@@ -173,7 +172,6 @@ namespace L11_1_Assignment2_Support
 
             {
                 LoaiGiaoDich = LoaiGiaoDich.Nhan,
-                MaGiaoDich = "123",
                 TaiKhoanGui = _taiKhoan,
                 TaiKhoanNhan = taiKhoanNhan,
                 SoTien=stc,
