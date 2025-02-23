@@ -15,7 +15,7 @@ namespace L11_1_Assignment2_Support
 
         public bool TrangThai { get; set; }
 
-        public List<GiaoDich> GiaoDiches { get; set; }
+        public List<GiaoDich> GiaoDiches { get; set; } = new List<GiaoDich>();
 
         public KhachHang ChuTaiKhoan { get; set; }
 

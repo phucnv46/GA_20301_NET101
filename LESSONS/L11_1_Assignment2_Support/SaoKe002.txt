@@ -1,0 +1,1 @@
+Mã Giao Dịch:123, Loại giao dịch Nhan, Người nhận:002, Số tiền: 1000000

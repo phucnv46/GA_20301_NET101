@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11_OnTap_ChuaBai", "L11_On
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L11_1_Assignment2_Support", "L11_1_Assignment2_Support\L11_1_Assignment2_Support.csproj", "{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L12_ChuaLab78", "L12_ChuaLab78\L12_ChuaLab78.csproj", "{A29F80CA-DDAB-4D64-A8CB-1285383845CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L12_Chua_Assignment2", "L12_Chua_Assignment2\L12_Chua_Assignment2.csproj", "{567698E5-DE64-412E-B136-7D1C39AB47C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EDCE92E-DBEE-4F2A-9DC3-EAB1CE0C92B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29F80CA-DDAB-4D64-A8CB-1285383845CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29F80CA-DDAB-4D64-A8CB-1285383845CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29F80CA-DDAB-4D64-A8CB-1285383845CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29F80CA-DDAB-4D64-A8CB-1285383845CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567698E5-DE64-412E-B136-7D1C39AB47C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567698E5-DE64-412E-B136-7D1C39AB47C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567698E5-DE64-412E-B136-7D1C39AB47C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567698E5-DE64-412E-B136-7D1C39AB47C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

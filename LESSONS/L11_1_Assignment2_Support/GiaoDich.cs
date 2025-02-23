@@ -14,14 +14,18 @@ namespace L11_1_Assignment2_Support
         public TaiKhoan TaiKhoanGui { get; set; }
         public TaiKhoan TaiKhoanNhan { get; set; }
 
+        public double SoTien { get; set; }
+
         public LoaiGiaoDich LoaiGiaoDich { get; set; }
 
         public void InThongTin()
         {
-            Console.WriteLine(JsonSerializer.Serialize(this));
-            if(LoaiGiaoDich==LoaiGiaoDich.Nhan)
-            Console.ForegroundColor = ConsoleColor.Green; 
+            if (LoaiGiaoDich == LoaiGiaoDich.Nhan)
+                Console.ForegroundColor = ConsoleColor.Green;
             else Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Mã Giao Dich: {MaGiaoDich}, STK Gửi {TaiKhoanGui.STK}, STK Nhận: {TaiKhoanNhan.STK} " +
+                $"Số Tiền {(LoaiGiaoDich==LoaiGiaoDich.Nhan ? "+" : "-")}{SoTien}");
+           
         }
     }
 

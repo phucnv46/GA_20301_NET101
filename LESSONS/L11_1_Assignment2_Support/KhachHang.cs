@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace L11_1_Assignment2_Support
@@ -23,6 +24,7 @@ namespace L11_1_Assignment2_Support
 
         public string SoCCCD { get; set; }
 
+        [JsonIgnore] //Attribute
         public TaiKhoan TaiKhoan { get; set; }
 
         public void InThongTin()

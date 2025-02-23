@@ -15,52 +15,47 @@ namespace L11_1_Assignment2_Support
                 {
                     new KhachHang()
                     {
-                        Id = 1,
-                        Ten = "Nguyen Van Phuc",
+                        Id = 0,
+                        Ten = "Le Duc Manh",
                         GioiTinh = true,
-                        NgaySinh = new DateTime(2006, 7, 7),
-                        SDT = "0966456789",
-                        SoCCCD = "01252145123645",
-                        TaiKhoan = new TaiKhoan()
-                        {
-                            STK = "001",
-                            SoDu = 5000,
-                            TrangThai = true
-                        }
+                        NgaySinh = new DateTime(2006, 6, 14),
+                        SDT = "0946286256",
+                        SoCCCD = "0613165132161",
+
+
+
+                    },
+                    new KhachHang()
+                    {
+                        Id = 1,
+                        Ten = "Nguyen Thanh Tung",
+                        GioiTinh = true,
+                        NgaySinh = new DateTime(2006, 6, 14),
+                        SDT = "0122345678",
+                        SoCCCD = "21655613",
+
+
                     },
                     new KhachHang()
                     {
                         Id = 2,
-                        Ten = "Tran Thi Bich",
-                        GioiTinh = false,
-                        NgaySinh = new DateTime(1995, 5, 15),
-                        SDT = "0987654321",
-                        SoCCCD = "98765432101234",
-                        TaiKhoan = new TaiKhoan()
-                        {
-                            STK = "002",
-                            SoDu = 3000,
-                            TrangThai = true
-                        }
-                    },
-                    new KhachHang()
-                    {
-                        Id = 3,
-                        Ten = "Le Van Tam",
+                        Ten = "Nguyen Ngoc Tu",
                         GioiTinh = true,
-                        NgaySinh = new DateTime(1988, 12, 20),
-                        SDT = "0912345678",
-                        SoCCCD = "12345678901234",
-                        TaiKhoan = new TaiKhoan()
-                        {
-                            STK = "003",
-                            SoDu = 10000,
-                            TrangThai = false
-                        }
-                    }
+                        NgaySinh = new DateTime(2006, 6, 14),
+                        SDT = "79654956544654",
+                        SoCCCD = "4461891616",
+
+
+                    },
                 };
             }
         }
+        public static List<TaiKhoan> TaiKhoans = new List<TaiKhoan>
+    {
+        new TaiKhoan { STK = "001", SoDu = 5000000, TrangThai = true, ChuTaiKhoan = KhachHangs[0] },
+        new TaiKhoan { STK = "002", SoDu = 3000000, TrangThai = true, ChuTaiKhoan = KhachHangs[1] },
+        new TaiKhoan {STK = "003", SoDu = 4000000, TrangThai = true, ChuTaiKhoan = KhachHangs[2]}
+    };
 
         public static List<TaiKhoanDangNhap> TaiKhoanDangNhaps
         {
@@ -72,50 +67,24 @@ namespace L11_1_Assignment2_Support
                     {
                         Username = "user1",
                         Password = "pass1",
-                        TaiKhoan = KhachHangs[0].TaiKhoan
+                        TaiKhoan = TaiKhoans[0],
                     },
                     new TaiKhoanDangNhap()
                     {
                         Username = "user2",
                         Password = "pass2",
-                        TaiKhoan = KhachHangs[1].TaiKhoan
+                        TaiKhoan = TaiKhoans[1]
                     },
                     new TaiKhoanDangNhap()
                     {
                         Username = "user3",
                         Password = "pass3",
-                        TaiKhoan = KhachHangs[2].TaiKhoan
+                        TaiKhoan = TaiKhoans[2]
                     }
                 };
             }
-        }
 
-        public static List<GiaoDich> GiaoDichs
-        {
-            get
-            {
-                return new List<GiaoDich>()
-                {
-                    new GiaoDich()
-                    {
-                        TaiKhoanGui = KhachHangs[0].TaiKhoan,
-                        TaiKhoanNhan = KhachHangs[1].TaiKhoan,
-                        LoaiGiaoDich = LoaiGiaoDich.Gui
-                    },
-                    new GiaoDich()
-                    {
-                        TaiKhoanGui = KhachHangs[1].TaiKhoan,
-                        TaiKhoanNhan = KhachHangs[2].TaiKhoan,
-                        LoaiGiaoDich = LoaiGiaoDich.Gui
-                    },
-                    new GiaoDich()
-                    {
-                        TaiKhoanGui = KhachHangs[2].TaiKhoan,
-                        TaiKhoanNhan = KhachHangs[0].TaiKhoan,
-                        LoaiGiaoDich = LoaiGiaoDich.Gui
-                    }
-                };
-            }
+
         }
     }
 }
