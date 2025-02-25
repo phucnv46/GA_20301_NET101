@@ -160,8 +160,10 @@ namespace L11_1_Assignment2_Support
             _taiKhoan.SoDu -= stc;
             taiKhoanNhan.SoDu += stc;
 
+            string maGiaoDich = Guid.NewGuid().ToString();  
             _taiKhoan.GiaoDiches.Add(new GiaoDich()
             {
+                MaGiaoDich = maGiaoDich,
                 LoaiGiaoDich = LoaiGiaoDich.Gui,
                 TaiKhoanGui = _taiKhoan,
                 TaiKhoanNhan = taiKhoanNhan,
@@ -171,6 +173,7 @@ namespace L11_1_Assignment2_Support
             taiKhoanNhan.GiaoDiches.Add(new GiaoDich()
 
             {
+                MaGiaoDich = maGiaoDich,
                 LoaiGiaoDich = LoaiGiaoDich.Nhan,
                 TaiKhoanGui = _taiKhoan,
                 TaiKhoanNhan = taiKhoanNhan,

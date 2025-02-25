@@ -9,7 +9,7 @@ namespace L11_1_Assignment2_Support
 {
     internal class GiaoDich
     {
-        public string MaGiaoDich { get; set; } = Guid.NewGuid().ToString();
+        public string MaGiaoDich { get; set; } 
 
         public TaiKhoan TaiKhoanGui { get; set; }
         public TaiKhoan TaiKhoanNhan { get; set; }
